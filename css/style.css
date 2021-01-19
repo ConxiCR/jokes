@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.caixa {
+    margin-left: 20em;
+    width: 20em;
+    height: 60em;
+    display: flex;
+    flex-flow: row wrap;
+    clear: both;
+}
+.caixa2 {
+    width: 40em;
+    margin: 1em;
+    padding: 5px;
+    background: gold;
+    font-size: 1.5em;
+    display: flex;
+}
+
+.caixaTitol{
+    color: #000000b7;
+    margin-top:-12em;
+}
+.caixaJoke{
+    margin-top: -9em;
+    text-align: center ;
+    height: 10%;
+    font-size: 14px;
+    border: 3px solid #e4dddd;
+}
+.caixaBotoClick{
+    position: absolute;
+   
+    margin-left: 20em;
+    z-index: 4; 
+    height: 40px; 
+    width: 150px;
+    cursor: pointer;
+    background: rgb(244, 112, 86) none repeat scroll 0% 0%; 
+    border: 1px none rgb(127, 149, 235); 
+    text-align: center;
+    font-size: 16px; 
+    color: rgb(255, 255, 255);
+    line-height: 1; 
+    border-radius: 5px; 
+    transition: background 300ms ease 0s;
+    left: 5px; 
+    top: 134px; 
+}
